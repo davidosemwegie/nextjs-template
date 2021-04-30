@@ -6,11 +6,7 @@
     "build": "NODE_ENV=production COMMIT_HASH=$(git rev-parse --short HEAD) next build",
     "start": "next start",
     "start:production": "NODE_ENV=production TZ=UTC next start -p 8000",
-    "start:staging": "APP_ENV=staging NODE_ENV=production TZ=UTC next start -p 8000",
-    "typeCheck": "tsc",
-    "lint": "eslint \"**/*.{ts,tsx,js}\"",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,graphql,css,md}\"",
-    "format:check": "prettier --debug-check \"**/*.{ts,js,json,graphql,css,md}\""
+    "typeCheck": "tsc"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^10.2.0",
