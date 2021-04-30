@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint-config-neo/config-frontend"],
+  "overrides": [
+    {
+      "files": ["**/stories/**/*", "**/.storybook/**/*"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  ],
+  "rules": {
+    "unicorn/no-useless-undefined": "off"
+  }
+}

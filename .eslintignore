@@ -1,0 +1,5 @@
+build
+.next
+node_modules
+/scripts
+one-link-smart-script.js
